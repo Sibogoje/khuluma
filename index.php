@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coming Soon</title>
+    <link rel="icon" href="logo_icon" type="image/png">
     <style>
         body {
             display: flex;
@@ -38,7 +39,7 @@
 </head>
 <body>
     <div class="container">
-        <img src="path/to/logo.png" alt="Logo" class="logo">
+        <img src="logo_icon.png" alt="Logo" class="logo">
         <h1>Coming Soon</h1>
         <p>We are working very hard to give you the best experience possible. Stay tuned!</p>
     </div>
