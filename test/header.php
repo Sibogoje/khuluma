@@ -2,7 +2,7 @@
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
           <a class="navbar-brand" href="index.html">
-            <img src="images/logo.png" alt="" />
+            <img src="../logo_icon.png" alt="" />
             <span>
               KHULUMA ESWATINI
             </span>
