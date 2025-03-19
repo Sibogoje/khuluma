@@ -35,6 +35,11 @@
         p {
             font-size: 1.2em;
         }
+        @media (max-width: 600px) {
+            .container {
+                margin: 20px;
+            }
+        }
     </style>
 </head>
 <body>
