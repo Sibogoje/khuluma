@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coming Soon</title>
-    <link rel="icon" href="logo_icon" type="image/png">
+    <link rel="icon" href="logo_icon.png" type="image/png">
     <style>
         body {
             display: flex;
@@ -13,7 +13,7 @@
             height: 100vh;
             margin: 0;
             font-family: Arial, sans-serif;
-            background: linear-gradient(135deg, #71b7e6, #9b59b6);
+            background: linear-gradient(135deg,rgb(26, 30, 32),rgb(132, 30, 2));
             color: #fff;
             text-align: center;
         }
