@@ -150,9 +150,9 @@
               <div class="row">
                 <div class="col-md-3 col-lg-2 offset-md-2">
                 <div class="detail-box">
-                <h1>
+                <h3>
                     Fluid Communication
-                </h1>
+                </h3>
                 <p>
                     We understand that every brand has unique communication needs. Our approach is flexible and adaptive, ensuring that we meet your specific requirements effectively.
                 </p>
