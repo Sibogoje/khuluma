@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-6 col-lg-4">
                 <div class="info_links pl-lg-5">
-                    <h4>
+                    <h4 style="text-align: left;">
                         Menu
                     </h4>
                     <ul>
@@ -33,7 +33,7 @@
             </div>
             <div class="col-md-6 col-lg-4">
                 <div class="info_contact">
-                    <h4>
+                    <h4 style="text-align: left;">
                         Location
                     </h4>
                     <div>
