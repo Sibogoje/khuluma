@@ -119,7 +119,7 @@
     /* Color Palette for Cards */
     .value-box:nth-child(1),
     .value-box:nth-child(5) {
-      background: #dc3545; /* Red */
+      background:rgb(147, 13, 27); /* Red */
     }
 
     .value-box:nth-child(2),
