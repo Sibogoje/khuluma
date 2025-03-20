@@ -79,7 +79,7 @@
 
     h3{
       font-weight: bold;
-      font-size: 22px;
+      font-size: 45px;
     }
 
     .featured-clients {
