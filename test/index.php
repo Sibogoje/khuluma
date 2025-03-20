@@ -79,7 +79,7 @@
 
     h3{
       font-weight: bold;
-      font-size: 45px;
+      font-size: 40px;
     }
 
     .featured-clients {
@@ -132,11 +132,10 @@
                 <div class="col-md-3 col-lg-2 offset-md-2">
                   <div class="detail-box">
                     <h1>
-                      Make Design
+                      Work Ethic
                     </h1>
                     <p>
-                      There are many variations of passages of Lorem Ipsum
-                      available, but the majority
+                      Result Oriented
                     </p>
                   </div>
                 </div>
