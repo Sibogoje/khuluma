@@ -196,11 +196,9 @@
     <h1>Shaping Narratives, Building Trust</h1>
     <p>We connect brands with their audience through innovative strategies and creative solutions.</p>
     <div class="quick-links">
-      <a href="about_us.php">About Us</a>
-      <a href="services.php">Services</a>
-      <a href="contact.php">Contact</a>
-      <a href="case_studies.php">Case Studies</a>
-      <a href="blog.php">Blog</a>
+      <a href="About Us.php">About Us</a>
+      <a href="Our Services.php">Services</a>
+      <a href="Contact Us.php">Contact Us</a>
     </div>
   </div>
 
