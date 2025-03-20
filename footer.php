@@ -69,16 +69,6 @@
                                 <img src="images/facebook-logo.png" alt="" />
                             </a>
                         </div>
-                        <!-- <div>
-                            <a href="">
-                                <img src="images/twitter-logo.png" alt="" />
-                            </a>
-                        </div>
-                        <div>
-                            <a href="">
-                                <img src="images/instagram.png" alt="" />
-                            </a>
-                        </div> -->
                         <div>
                             <a href="https://www.linkedin.com/company/khuluma-eswatini/posts/?feedView=all" target="_blank">
                                 <img src="images/linkedin-sign.png" alt="" />
