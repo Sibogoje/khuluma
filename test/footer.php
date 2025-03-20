@@ -64,7 +64,7 @@
             </h4>
             <div class="social_container">
               <div>
-                <a href="https://www.facebook.com/profile.php?id=61572627470346">
+                <a href="https://www.facebook.com/profile.php?id=61572627470346" target="_blank">
                   <img src="images/facebook-logo.png" alt="" />
                 </a>
               </div>
@@ -79,7 +79,7 @@
                 </a>
               </div> -->
               <div>
-                <a href="https://www.linkedin.com/company/khuluma-eswatini/posts/?feedView=all">
+                <a href="https://www.linkedin.com/company/khuluma-eswatini/posts/?feedView=all" target="_blank">
                   <img src="images/linkedin-sign.png" alt="" />
                 </a>
               </div>
