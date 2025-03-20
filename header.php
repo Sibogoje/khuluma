@@ -43,7 +43,7 @@
           </div>
           <div class="call_btn">
             <a href="">
-              Call: +268 76285502
+              Email: communications@khulumaeswatini.com
             </a>
           </div>
         </nav>
