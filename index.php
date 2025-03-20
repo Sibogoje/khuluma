@@ -41,7 +41,7 @@
       justify-content: center;
       align-items: center;
       height: 100vh;
-      background: rgba(0, 0, 0, 0.5);
+      background: rgb(88, 81, 81);
       padding: 20px;
     }
 
