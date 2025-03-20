@@ -17,36 +17,151 @@
   <?php include "imports.php"; ?>
 
   <style>
-    .about_section, .approach_section, .team_section, .values_section {
-        padding: 60px 0;
+    /* General Styles */
+    body {
+      font-family: 'Poppins', sans-serif;
+      color: #333;
+      line-height: 1.6;
     }
-    .custom_heading-container h2 {
-        font-size: 2.5em;
-        margin-bottom: 20px;
-        color: #343a40;
+
+    h2 {
+      font-size: 2.5em;
+      font-weight: 700;
+      color: #343a40;
+      margin-bottom: 20px;
     }
-    .detail-box p, .approach_section p, .team-member p, .value-box p {
-        font-size: 1.1em;
-        color: #6c757d;
+
+    p {
+      font-size: 1.1em;
+      color: #6c757d;
     }
-    .team-member, .value-box {
-        text-align: center;
-        margin-bottom: 30px;
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 60px;
     }
+
+    .section-title h2 {
+      position: relative;
+      display: inline-block;
+      padding-bottom: 10px;
+    }
+
+    .section-title h2::after {
+      content: '';
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      width: 50px;
+      height: 3px;
+      background: #007bff;
+      transform: translateX(-50%);
+    }
+
+    /* About Section */
+    .about_section {
+      padding: 100px 0;
+      background: #f8f9fa;
+    }
+
+    .about_section .img-box img {
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .about_section .detail-box {
+      padding-left: 30px;
+    }
+
+    /* Approach Section */
+    .approach_section {
+      padding: 100px 0;
+      background: #fff;
+    }
+
+    .approach_section p {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    /* Team Section */
+    .team_section {
+      padding: 100px 0;
+      background: #f8f9fa;
+    }
+
+    .team-member {
+      text-align: center;
+      margin-bottom: 30px;
+      transition: transform 0.3s ease;
+    }
+
+    .team-member:hover {
+      transform: translateY(-10px);
+    }
+
     .team-member img {
-        border-radius: 50%;
-        margin-bottom: 15px;
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      margin-bottom: 20px;
+      border: 5px solid #007bff;
     }
-    .team-member h4, .value-box h4 {
-        font-size: 1.5em;
-        color: #343a40;
+
+    .team-member h4 {
+      font-size: 1.5em;
+      color: #343a40;
+      margin-bottom: 10px;
     }
-    .value-box ul {
-        list-style: none;
-        padding: 0;
+
+    .team-member p {
+      font-size: 1em;
+      color: #6c757d;
     }
-    .value-box ul li {
-        margin-bottom: 10px;
+
+    /* Values Section */
+    .values_section {
+      padding: 100px 0;
+      background: #fff;
+    }
+
+    .value-box {
+      text-align: center;
+      margin-bottom: 30px;
+      padding: 20px;
+      background: #f8f9fa;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    .value-box:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .value-box h4 {
+      font-size: 1.5em;
+      color: #343a40;
+      margin-bottom: 15px;
+    }
+
+    .value-box p {
+      font-size: 1em;
+      color: #6c757d;
+    }
+
+    /* Footer */
+    footer {
+      background: #343a40;
+      color: #fff;
+      padding: 40px 0;
+      text-align: center;
+    }
+
+    footer p {
+      margin: 0;
     }
   </style>
 </head>
@@ -54,30 +169,26 @@
 <body class="sub_page">
   <div class="hero_area">
     <!-- header section starts -->
-    <?php 
-    include "header.php";
-    ?>
+    <?php include "header.php"; ?>
     <!-- end header section -->
   </div>
 
   <!-- custom menu -->
-  <?php 
-  include "menu.php";
-  ?>
+  <?php include "menu.php"; ?>
   <!-- custom menu -->
 
   <!-- about section -->
-  <section class="about_section layout_padding mt-5">
+  <section class="about_section">
     <div class="container">
-      <div class="row">
-        <div class="col-md-7">
+      <div class="row align-items-center">
+        <div class="col-md-6">
           <div class="img-box">
             <img src="images/about-img.png" alt="About Us Image" class="img-fluid" />
           </div>
         </div>
-        <div class="col-md-5">
+        <div class="col-md-6">
           <div class="detail-box">
-            <div class="custom_heading-container">
+            <div class="section-title">
               <h2>Who We Are</h2>
             </div>
             <p>
@@ -91,9 +202,9 @@
   <!-- end about section -->
 
   <!-- approach section -->
-  <section class="approach_section layout_padding">
+  <section class="approach_section">
     <div class="container">
-      <div class="custom_heading-container">
+      <div class="section-title">
         <h2>Our Approach</h2>
       </div>
       <p>
@@ -104,19 +215,18 @@
   <!-- end approach section -->
 
   <!-- team section -->
-  <section class="team_section layout_padding">
+  <section class="team_section">
     <div class="container">
-      <div class="custom_heading-container">
+      <div class="section-title">
         <h2>Our Team</h2>
       </div>
       <div class="row">
-        <!-- Example team member -->
         <div class="col-md-4">
           <div class="team-member">
             <img src="images/team-member1.jpg" alt="Team Member 1" class="img-fluid">
-            <h4>John Doe</h4>
+            <h4>Mandla Lupdondvo</h4>
             <p>CEO & Founder</p>
-            <p>John is a seasoned communications expert with over 20 years of experience in the industry.</p>
+            <p>Mandla is a seasoned communications expert with over 20 years of experience in the industry.</p>
           </div>
         </div>
         <!-- Add more team members as needed -->
@@ -126,9 +236,9 @@
   <!-- end team section -->
 
   <!-- values section -->
-  <section class="values_section layout_padding">
+  <section class="values_section">
     <div class="container">
-      <div class="custom_heading-container">
+      <div class="section-title">
         <h2>Our Values</h2>
       </div>
       <div class="row">
@@ -173,7 +283,7 @@
   </section>
   <!-- end values section -->
 
-  <!-- info section -->
+  <!-- footer section -->
   <?php include "footer.php"; ?>
   <!-- footer section -->
 
@@ -181,7 +291,6 @@
   <script src="js/bootstrap.js"></script>
   <script src="js/circles.min.js"></script>
   <script src="js/custom.js"></script>
-
 </body>
 
 </html>
