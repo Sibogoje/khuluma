@@ -20,7 +20,7 @@
               <li>
                 <a class="" href="why your story matters.php">Portfolio </a>
               </li>
-              <li class="active">
+              <li class="">
                 <a class="" href="Our Services.php">Services</a>
               </li>
               <li>
