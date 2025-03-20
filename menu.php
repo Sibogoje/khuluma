@@ -9,7 +9,7 @@
                 <a class="nav-link" href="About Us.php">About Us </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="why your story matters.php">Why your story matters </a>
+                <a class="nav-link" href="why your story matters.php">Brand Stories </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="Our Services.php">Services</a>
