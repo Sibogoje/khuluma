@@ -167,7 +167,7 @@ a:focus {
 @media (max-width: 768px) {
   .navbar-brand,
   .navbar-brand:hover {
-    font-size: 24px;
+    font-size: 18px;
   }
 }
 
