@@ -34,7 +34,6 @@
     <!-- header section strats -->
 <?php 
 include "header.php";
-
 ?>
     <!-- end header section -->
 
