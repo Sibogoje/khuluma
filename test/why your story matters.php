@@ -47,17 +47,6 @@
             padding-bottom: 10px;
         }
 
-        .section-title h2::after {
-            content: '';
-            position: absolute;
-            left: 50%;
-            bottom: 0;
-            width: 50px;
-            height: 3px;
-            background:rgba(0, 123, 255, 0);
-            transform: translateX(-50%);
-        }
-
         /* Thought Leadership Section */
         .thought_leadership_section {
             padding: 100px 0;
