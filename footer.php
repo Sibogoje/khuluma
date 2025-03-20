@@ -39,7 +39,9 @@
             <div>
               <img src="images/location.png" alt="" />
               <p>
-                Eswatini
+                SNAT COOPS Building<br>
+                Office # 314 <br>
+                Mancishane Street, Manzini
               </p>
             </div>
             <div>

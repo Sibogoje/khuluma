@@ -174,7 +174,7 @@
         <div class="col-md-6">
           <div class="detail-box">
             <div class="section-title">
-              <h2>Who We Are</h2>
+              <h2 style="border-bottom: none;">Who We Are</h2>
             </div>
             <p>
               Khuluma Eswatini is a leading communications and public relations firm dedicated to shaping narratives and building trust. We connect brands with their audience through innovative strategies and creative solutions.
