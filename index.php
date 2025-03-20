@@ -206,7 +206,7 @@
 
   <!-- Featured Clients Section -->
   <div class="featured-clients">
-    <h2>Featured Clients</h2>
+    <h2 style="font-weight: bold;">Featured Clients & Partners</h2>
     <!-- Display logos of past & current partners -->
     <img src="images/limkokwing.jpg" alt="Client 1">
     <!-- <img src="client_logo2.png" alt="Client 2">
