@@ -1,0 +1,14 @@
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType text/css "access plus 1 seconds"
+    ExpiresByType application/javascript "access plus 1 seconds"
+    ExpiresByType image/png "access plus 1 seconds"
+    ExpiresByType image/jpeg "access plus 1 seconds"
+    ExpiresByType image/gif "access plus 1 seconds"
+</IfModule>
+
+<IfModule mod_headers.c>
+    <FilesMatch "\.(css|js|png|jpg|jpeg|gif)$">
+        Header set Cache-Control "max-age=1, must-revalidate"
+    </FilesMatch>
+</IfModule>
