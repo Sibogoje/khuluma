@@ -95,6 +95,14 @@
       max-width: 100px;
       margin: 10px;
     }
+
+    @media (max-width: 768px) {
+  .navbar-brand,
+  .navbar-brand:hover {
+    font-size: 18px;
+  }
+}
+
   </style>
 </head>
 
