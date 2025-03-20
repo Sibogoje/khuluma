@@ -106,6 +106,14 @@
   font-weight: 600;
   text-transform: uppercase;
 }
+
+@media (max-width: 768px) {
+  .navbar-brand,
+  .navbar-brand:hover {
+    font-size: 18px;
+  }
+}
+
   </style>
 </head>
 
