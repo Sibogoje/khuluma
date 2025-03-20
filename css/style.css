@@ -104,6 +104,13 @@ body {
   text-align: center;
 }
 
+@media (max-width: 768px) {
+  .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+}
+
 .custom_nav-container .user_option {
   display: -webkit-box;
   display: -ms-flexbox;
