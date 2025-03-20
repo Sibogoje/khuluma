@@ -43,7 +43,7 @@
       </div>
       <div class="row">
         <div class="col-md-6">
-          <div class="service-box">
+          <div class="service-box" style="background-color: #f8f9fa;">
             <h3>Marketing Communication</h3>
             <ul>
               <li>Social Media Management</li>
@@ -53,7 +53,7 @@
           </div>
         </div>
         <div class="col-md-6">
-          <div class="service-box">
+          <div class="service-box" style="background-color: #e9ecef;">
             <h3>Brand and Media Relations</h3>
             <ul>
               <li>Brand Identity and Logo Development</li>
@@ -63,7 +63,7 @@
           </div>
         </div>
         <div class="col-md-6">
-          <div class="service-box">
+          <div class="service-box" style="background-color: #f8f9fa;">
             <h3>Editorial Services and Publications</h3>
             <ul>
               <li>Annual Reports and Internal Communications</li>
@@ -73,7 +73,7 @@
           </div>
         </div>
         <div class="col-md-6">
-          <div class="service-box">
+          <div class="service-box" style="background-color: #e9ecef;">
             <h3>Training Services</h3>
             <ul>
               <li>Public Relations and Media Relations Training</li>
