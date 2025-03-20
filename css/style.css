@@ -168,6 +168,7 @@ a:focus {
   .navbar-brand,
   .navbar-brand:hover {
     font-size: 18px;
+    text-align: center;
   }
 }
 
