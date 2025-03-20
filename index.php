@@ -97,6 +97,15 @@
       max-width: 100px;
       margin: 10px;
     }
+
+
+    .navbar-brand,
+.navbar-brand:hover {
+  color:rgb(255, 255, 255);
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
   </style>
 </head>
 
