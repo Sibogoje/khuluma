@@ -141,7 +141,7 @@
                 </div>
                 <div class="col-md-7 col-lg-6">
                   <div class="img-box">
-                    <img src="../round.png" alt="" />
+                    <img src="images/round.png" alt="" />
                   </div>
                 </div>
               </div>
@@ -149,24 +149,18 @@
             <div class="carousel-item">
               <div class="row">
                 <div class="col-md-3 col-lg-2 offset-md-2">
-                  <div class="detail-box">
-                    <h1>
-                      Make Design
-                    </h1>
-                    <p>
-                      There are many variations of passages of Lorem Ipsum
-                      available, but the majority
-                    </p>
-                    <div>
-                      <a href="">
-                        Read More
-                      </a>
-                    </div>
-                  </div>
-                </div>
+                <div class="detail-box">
+                <h1>
+                    Fluid Communication
+                </h1>
+                <p>
+                    We understand that every brand has unique communication needs. Our approach is flexible and adaptive, ensuring that we meet your specific requirements effectively.
+                </p>
+            </div>
+            </div>
                 <div class="col-md-7 col-lg-8">
                   <div class="img-box">
-                    <img src="images/hero.png" alt="" />
+                    <img src="images/graph.png" alt="" />
                   </div>
                 </div>
               </div>
