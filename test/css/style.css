@@ -78,7 +78,7 @@ body {
 }
 
 .header_section .active a {
-  color: #0caa7d !important;
+  color: #0304048c !important;
 }
 
 .header_section .call_btn {
@@ -233,7 +233,7 @@ a:focus {
 
 .carousel-control-prev,
 .carousel-control-next {
-  background-color: #0caa7d;
+  background-color: #0304048c;
   background-repeat: no-repeat;
   background-size: 10px;
   background-position: center;
@@ -364,7 +364,7 @@ a:focus {
 }
 
 .do_section .content-box.bg-green {
-  background-color: #0ca57a;
+  background-color: #0304048c;
 }
 
 .skill_section {
@@ -499,7 +499,7 @@ a:focus {
 
 .client_section .client_box .client-id .name h5 {
   text-transform: uppercase;
-  color: #0caa7d;
+  color: #0304048c;
   font-weight: bold;
 }
 
@@ -525,7 +525,7 @@ a:focus {
 }
 
 .contact_section {
-  background-color: #0ca57a;
+  background-color: #0304048c;
   color: #fff;
   background-size: cover;
   background-repeat: no-repeat;
@@ -610,7 +610,7 @@ a:focus {
 }
 
 .info_links ul .active::before {
-  background-color: #0caa7d;
+  background-color: #0304048c;
 }
 
 .info_links ul li {
@@ -646,7 +646,7 @@ a:focus {
 }
 
 .info_form button {
-  background-color: #0caa7d;
+  background-color: #0304048c;
   padding: 8px 35px;
   outline: none;
   border: none;
@@ -656,7 +656,7 @@ a:focus {
 }
 
 .info_form button:hover {
-  background-color: #097a5a;
+  background-color: #0304048c;
 }
 
 .info_social .social_container {
