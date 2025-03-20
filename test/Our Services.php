@@ -22,6 +22,11 @@
       color: #fff;
       text-align: center;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+    }
+
+    .service-box:hover {
+      transform: translateY(-10px);
     }
 
     .service-box h3 {

@@ -15,6 +15,33 @@
   <title>About Us</title>
 
   <?php include "imports.php"; ?>
+
+  <style>
+    .about_section, .approach_section, .team_section, .values_section {
+        padding: 60px 0;
+    }
+    .custom_heading-container h2 {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+        color: #343a40;
+    }
+    .detail-box p, .approach_section p, .team-member p, .value-box p {
+        font-size: 1.1em;
+        color: #6c757d;
+    }
+    .team-member, .value-box {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .team-member img {
+        border-radius: 50%;
+        margin-bottom: 15px;
+    }
+    .team-member h4, .value-box h4 {
+        font-size: 1.5em;
+        color: #343a40;
+    }
+  </style>
 </head>
 
 <body class="sub_page">
@@ -38,7 +65,7 @@
       <div class="row">
         <div class="col-md-7">
           <div class="img-box">
-            <img src="images/about-img.png" alt="About Us Image" />
+            <img src="images/about-img.png" alt="About Us Image" class="img-fluid" />
           </div>
         </div>
         <div class="col-md-5">

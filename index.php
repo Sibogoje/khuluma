@@ -13,7 +13,7 @@
             height: 100vh;
             margin: 0;
             font-family: Arial, sans-serif;
-            background: linear-gradient(135deg,rgb(26, 30, 32),rgb(132, 30, 2));
+            background: linear-gradient(135deg, rgb(26, 30, 32), rgb(132, 30, 2));
             color: #fff;
             text-align: center;
         }
@@ -23,6 +23,7 @@
             background: rgba(0, 0, 0, 0.5);
             border-radius: 10px;
             text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
         .logo {
             max-width: 150px;
