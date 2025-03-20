@@ -88,19 +88,6 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="info_form">
-            <h4>
-              <!-- Newsletter -->
-            </h4>
-            <!-- <form action="#">
-              <input type="text" placeholder="Enter Your Email" />
-              <button type="submit">
-                Subscribe
-              </button>
-            </form> -->
-          </div>
-        </div>
       </div>
     </div>
   </section>
