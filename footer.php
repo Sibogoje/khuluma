@@ -51,7 +51,7 @@
             <div>
               <img src="images/envelope.png" alt="" />
               <p>
-                info@khulumaeswatini.com
+                communications@khulumaeswatini.com
               </p>
             </div>
           </div>
