@@ -148,7 +148,7 @@
                 </div>
                 <div class="col-md-7 col-lg-8">
                   <div class="img-box">
-                    <img src="images/hero.png" alt="" />
+                    <img src="../round.png" alt="" />
                   </div>
                 </div>
               </div>
