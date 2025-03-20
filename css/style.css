@@ -164,6 +164,13 @@ a:focus {
   text-transform: uppercase;
 }
 
+@media (max-width: 768px) {
+  .navbar-brand,
+  .navbar-brand:hover {
+    font-size: 24px;
+  }
+}
+
 .custom_nav-container {
   z-index: 99999;
   padding: 15px 0;
