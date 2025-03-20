@@ -47,17 +47,6 @@
       padding-bottom: 10px;
     }
 
-    .section-title h2::after {
-      content: '';
-      position: absolute;
-      left: 50%;
-      bottom: 0;
-      width: 50px;
-      height: 3px;
-      background: #007bff;
-      transform: translateX(-50%);
-    }
-
     /* About Section */
     .about_section {
       padding: 100px 0;
