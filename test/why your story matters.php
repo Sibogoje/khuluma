@@ -54,7 +54,7 @@
             bottom: 0;
             width: 50px;
             height: 3px;
-            background: #007bff;
+            background:rgba(0, 123, 255, 0);
             transform: translateX(-50%);
         }
 
