@@ -107,9 +107,9 @@
               <div class="row">
                 <div class="col-md-3 col-lg-2 offset-md-2">
                   <div class="detail-box">
-                    <h1>
+                    <h3>
                       Our Commitment
-                    </h1>
+                    </h3>
                     <p>
                       We write stories that reflect the power of your brand
                     </p>
