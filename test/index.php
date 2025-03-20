@@ -106,7 +106,7 @@
 
   <!-- Hero Section -->
   <div class="hero">
-    <img src="logo_icon.png" alt="Logo" class="logo" style="max-width: 150px; margin-bottom: 20px;">
+    <img src="../logo_icon.png" alt="Logo" class="logo" style="max-width: 150px; margin-bottom: 20px;">
     <h1>Shaping Narratives, Building Trust</h1>
     <p>We connect brands with their audience through innovative strategies and creative solutions.</p>
     <div class="quick-links">
