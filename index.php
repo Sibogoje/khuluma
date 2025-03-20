@@ -83,6 +83,7 @@
     }
 
     .featured-clients {
+      background: #fff;
       padding: 20px;
     }
 
