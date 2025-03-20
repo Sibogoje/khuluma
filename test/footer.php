@@ -64,11 +64,11 @@
             </h4>
             <div class="social_container">
               <div>
-                <a href="">
+                <a href="https://www.facebook.com/profile.php?id=61572627470346">
                   <img src="images/facebook-logo.png" alt="" />
                 </a>
               </div>
-              <div>
+              <!-- <div>
                 <a href="">
                   <img src="images/twitter-logo.png" alt="" />
                 </a>
@@ -76,11 +76,10 @@
               <div>
                 <a href="">
                   <img src="images/instagram.png" alt="" />
-                  <img src="images/instagram.png" alt="" />
                 </a>
-              </div>
+              </div> -->
               <div>
-                <a href="">
+                <a href="https://www.linkedin.com/company/khuluma-eswatini/posts/?feedView=all">
                   <img src="images/linkedin-sign.png" alt="" />
                 </a>
               </div>
