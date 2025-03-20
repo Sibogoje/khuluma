@@ -38,7 +38,7 @@
             </h4>
             <div>
               <img src="images/location.png" alt="" />
-              <p>
+              <p style="color: white;">
                 SNAT COOPS Building<br>
                 Office # 314 <br>
                 Mancishane Street, Manzini
