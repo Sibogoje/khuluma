@@ -77,6 +77,11 @@
       color: #000;
     }
 
+    h3{
+      font-weight: bold;
+      font-size: 22px;
+    }
+
     .featured-clients {
       padding: 20px;
     }
