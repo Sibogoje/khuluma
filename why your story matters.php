@@ -139,24 +139,39 @@
                 <h2 style="border-bottom: none;">Thought Leadership</h2>
             </div>
             <div class="article">
-                <h3>Article Title 1</h3>
+                <h3>The Power of Brand Stories</h3>
                 <p>
-                    This is a brief description of the thought leadership article. It provides insights and valuable information on a specific topic related to communications and public relations.
+                
+Storytelling is the interactive art of using words and actions to reveal the
+elements and images of a story while encouraging the listener’s imagination.
+
+Stories help people find purpose and meaning. They shape perceptions,
+cultivate empathy and understanding, and facilitate growth. Stories help us
+appreciate the complexities of the human condition and recognise our shared
+humanity.
+
+Stories connect each one of us with specific brands. 
+
+The power of storytelling is not in its length or its intricate plot. It is in its ability
+to open our minds and make us compassionate as we see the world through a
+broader lens.
+
+Khuluma Eswatini believes that every brand has a story to tell. However, once
+your brand story is told, your target audience may only know it and be inspired
+to act.
+
+As you focus on your core business, we’ll help you tell your story because our
+mission is to write stories that reflect the power of your brand.
                 </p>
             </div>
-            <div class="article">
-                <h3>Article Title 2</h3>
-                <p>
-                    This is a brief description of the thought leadership article. It provides insights and valuable information on a specific topic related to communications and public relations.
-                </p>
-            </div>
+
             <!-- Add more articles as needed -->
         </div>
     </section>
     <!-- end Thought Leadership Section -->
 
     <!-- Case Studies Section -->
-    <section class="case_studies_section">
+    <!-- <section class="case_studies_section">
         <div class="container">
             <div class="section-title">
                 <h2 style="border-bottom: none;">Case Studies & Success Stories</h2>
@@ -175,11 +190,11 @@
             </div>
             <!-- Add more case studies as needed -->
         </div>
-    </section>
+    <!-- </section> -->
     <!-- end Case Studies Section -->
 
     <!-- Industry Insights Section -->
-    <section class="industry_insights_section">
+    <!-- <section class="industry_insights_section">
         <div class="container">
             <div class="section-title">
                 <h2 style="border-bottom: none;">Industry Insights</h2>
@@ -198,7 +213,7 @@
             </div>
             <!-- Add more insights as needed -->
         </div>
-    </section>
+    <!-- </section> --> 
     <!-- end Industry Insights Section -->
 
     <!-- footer section -->
