@@ -1,7 +1,7 @@
 <section class="info_section layout_padding-top layout_padding2-bottom">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 col-lg-3">
+        <div class="col-md-6 col-lg-4">
           <div class="info_links pl-lg-5">
             <h4>
               Menu
@@ -31,7 +31,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-md-6 col-lg-3">
+        <div class="col-md-6 col-lg-4">
           <div class="info_contact">
             <h4>
               Location
@@ -58,8 +58,7 @@
             </div>
           </div>
         </div>
-
-        <div class="col-md-6 col-lg-3">
+        <div class="col-md-6 col-lg-4">
           <div class="info_social">
             <h4>
               Social Link
