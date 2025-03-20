@@ -41,6 +41,13 @@
         font-size: 1.5em;
         color: #343a40;
     }
+    .value-box ul {
+        list-style: none;
+        padding: 0;
+    }
+    .value-box ul li {
+        margin-bottom: 10px;
+    }
   </style>
 </head>
 
