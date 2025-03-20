@@ -74,7 +74,7 @@
 
     .quick-links a:hover {
       background: #fff;
-      color: #000;
+      color:rgb(255, 255, 255);
     }
 
     h3{
