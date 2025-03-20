@@ -60,7 +60,7 @@
             </div>
             <div class="col-md-6 col-lg-4">
                 <div class="info_social">
-                    <h4>
+                    <h4 style="text-align: left;">
                         Social Media Links
                     </h4>
                     <div class="social_container">
