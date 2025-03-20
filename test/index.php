@@ -139,14 +139,9 @@
                       There are many variations of passages of Lorem Ipsum
                       available, but the majority
                     </p>
-                    <div>
-                      <a href="">
-                        Read More
-                      </a>
-                    </div>
                   </div>
                 </div>
-                <div class="col-md-7 col-lg-8">
+                <div class="col-md-7 col-lg-6">
                   <div class="img-box">
                     <img src="../round.png" alt="" />
                   </div>
