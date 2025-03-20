@@ -12,7 +12,7 @@
                 <a class="nav-link" href="why your story matters.php">Why your story matters </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="Service.php">Services</a>
+                <a class="nav-link" href="Our Services.php">Services</a>
               </li>
 
               <li class="nav-item">
