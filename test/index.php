@@ -129,41 +129,9 @@ include "header.php";
   </div>
 
   <!-- custom menu -->
-  <div class="custom_menu-container">
-    <div class="container">
-      <div class="custom_menu">
-        <ul class="navbar-nav ">
-          <li class="nav-item active">
-            <a class="nav-link pl-0" href="index.html">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="service.html">Services</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact us</a>
-          </li>
-        </ul>
-        <div class="user_option">
-          <div class="login_btn-container">
-            <a href="">
-              Login
-            </a>
-          </div>
-          <form class="form-inline my-2 my-lg-0">
-            <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-
+<?php 
+include "menu.php";
+?>
   <!-- custom menu -->
 
   <!-- about section -->
