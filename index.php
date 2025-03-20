@@ -114,6 +114,14 @@
   }
 }
 
+
+.custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 10px 30px;
+  color:rgb(255, 255, 255);
+  font-weight: bold;
+  text-align: center;
+}
+
   </style>
 </head>
 
