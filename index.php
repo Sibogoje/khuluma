@@ -90,6 +90,7 @@
     .featured-clients h2 {
       font-size: 2em;
       margin-bottom: 20px;
+      color: red;
     }
 
     .featured-clients img {
