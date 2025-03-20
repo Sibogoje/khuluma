@@ -171,7 +171,7 @@
             </div>
                 <div class="col-md-7 col-lg-8">
                   <div class="img-box" >
-                    <img src="images/graph.png" alt="" />
+                    <img src="images/graph.png" alt="" style="max-width: 50%;" />
                   </div>
                 </div>
               </div>
