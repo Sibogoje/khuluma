@@ -297,6 +297,7 @@ a:focus {
   padding: 15px 30px;
   color: #ffffff;
   text-align: center;
+  font-weight: bold;
 }
 
 .custom_menu-container .custom_menu .user_option {
