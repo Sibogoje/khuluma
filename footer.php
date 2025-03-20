@@ -47,7 +47,7 @@
             <div>
               <img src="images/telephone.png" alt="" />
               <p style="color: white;">
-                (+268) 7628 5502 / 7913 8585
+                (+268) 7628 5502 <br> (+268) 7913 8585
               </p>
             </div>
             <div>
