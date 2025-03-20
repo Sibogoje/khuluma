@@ -46,13 +46,13 @@
             </div>
             <div>
               <img src="images/telephone.png" alt="" />
-              <p>
+              <p style="color: white;">
                 ( +268 7628 5502 / 7913 8585 )
               </p>
             </div>
             <div>
               <img src="images/envelope.png" alt="" />
-              <p>
+              <p style="color: white;">
                 communications@khulumaeswatini.com
               </p>
             </div>
