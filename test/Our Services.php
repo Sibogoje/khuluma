@@ -14,7 +14,48 @@
 
   <title>Our Services</title>
 
-<?php include "imports.php"; ?>
+  <style>
+    .service-box {
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+      color: #fff;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .service-box h3 {
+      margin-bottom: 15px;
+    }
+
+    .service-box ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .service-box ul li {
+      margin-bottom: 10px;
+    }
+
+    .service-box .icon {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+
+    .bg-red {
+      background-color: #d9534f;
+    }
+
+    .bg-grey {
+      background-color: #6c757d;
+    }
+
+    .bg-black {
+      background-color: #343a40;
+    }
+  </style>
+
+  <?php include "imports.php"; ?>
 </head>
 
 <body class="sub_page">
@@ -43,7 +84,8 @@
       </div>
       <div class="row">
         <div class="col-md-6">
-          <div class="service-box" style="background-color: #f8f9fa;">
+          <div class="service-box bg-red">
+            <div class="icon">📱</div>
             <h3>Marketing Communication</h3>
             <ul>
               <li>Social Media Management</li>
@@ -53,7 +95,8 @@
           </div>
         </div>
         <div class="col-md-6">
-          <div class="service-box" style="background-color: #e9ecef;">
+          <div class="service-box bg-grey">
+            <div class="icon">📰</div>
             <h3>Brand and Media Relations</h3>
             <ul>
               <li>Brand Identity and Logo Development</li>
@@ -63,7 +106,8 @@
           </div>
         </div>
         <div class="col-md-6">
-          <div class="service-box" style="background-color: #f8f9fa;">
+          <div class="service-box bg-black">
+            <div class="icon">📚</div>
             <h3>Editorial Services and Publications</h3>
             <ul>
               <li>Annual Reports and Internal Communications</li>
@@ -73,7 +117,8 @@
           </div>
         </div>
         <div class="col-md-6">
-          <div class="service-box" style="background-color: #e9ecef;">
+          <div class="service-box bg-red">
+            <div class="icon">🎓</div>
             <h3>Training Services</h3>
             <ul>
               <li>Public Relations and Media Relations Training</li>
