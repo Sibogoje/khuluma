@@ -85,71 +85,56 @@
       text-align: center;
     }
 
-    /* Team Section */
-    .team_section {
-      padding: 100px 0;
-      background: #f8f9fa;
-    }
-
-    .team-member {
-      text-align: center;
-      margin-bottom: 30px;
-      transition: transform 0.3s ease;
-    }
-
-    .team-member:hover {
-      transform: translateY(-10px);
-    }
-
-    .team-member img {
-      border-radius: 50%;
-      width: 150px;
-      height: 150px;
-      object-fit: cover;
-      margin-bottom: 20px;
-      border: 5px solid #007bff;
-    }
-
-    .team-member h4 {
-      font-size: 1.5em;
-      color: #343a40;
-      margin-bottom: 10px;
-    }
-
-    .team-member p {
-      font-size: 1em;
-      color: #6c757d;
-    }
-
     /* Values Section */
     .values_section {
       padding: 100px 0;
-      background: #fff;
+      background: #f8f9fa;
     }
 
     .value-box {
       text-align: center;
       margin-bottom: 30px;
-      padding: 20px;
-      background: #f8f9fa;
+      padding: 30px;
       border-radius: 10px;
       transition: transform 0.3s ease;
+      color: #fff;
     }
 
     .value-box:hover {
       transform: translateY(-10px);
-      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     }
 
     .value-box h4 {
       font-size: 1.5em;
-      color: #343a40;
       margin-bottom: 15px;
     }
 
     .value-box p {
       font-size: 1em;
-      color: #6c757d;
+      color: #fff;
+      opacity: 0.9;
+    }
+
+    /* Color Palette for Cards */
+    .value-box:nth-child(1),
+    .value-box:nth-child(5) {
+      background: #dc3545; /* Red */
+    }
+
+    .value-box:nth-child(2),
+    .value-box:nth-child(6) {
+      background: #6c757d; /* Grey */
+    }
+
+    .value-box:nth-child(3),
+    .value-box:nth-child(7) {
+      background: #343a40; /* Black */
+    }
+
+    .value-box:nth-child(4),
+    .value-box:nth-child(8) {
+      background: #28a745; /* Green */
     }
 
     /* Footer */
@@ -213,27 +198,6 @@
     </div>
   </section>
   <!-- end approach section -->
-
-  <!-- team section -->
-  <section class="team_section">
-    <div class="container">
-      <div class="section-title">
-        <h2>Our Team</h2>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="team-member">
-            <img src="images/team-member1.jpg" alt="Team Member 1" class="img-fluid">
-            <h4>Mandla Lupdondvo</h4>
-            <p>CEO & Founder</p>
-            <p>Mandla is a seasoned communications expert with over 20 years of experience in the industry.</p>
-          </div>
-        </div>
-        <!-- Add more team members as needed -->
-      </div>
-    </div>
-  </section>
-  <!-- end team section -->
 
   <!-- values section -->
   <section class="values_section">
