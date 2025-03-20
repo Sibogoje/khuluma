@@ -24,617 +24,111 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,700|Roboto:400,700&display=swap" rel="stylesheet" />
 
   <?php include "imports.php"; ?>
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, rgb(26, 30, 32), rgb(132, 30, 2));
+      color: #fff;
+      text-align: center;
+    }
+
+    .hero {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+    }
+
+    .hero h1 {
+      font-size: 3em;
+      margin-bottom: 0.5em;
+    }
+
+    .hero p {
+      font-size: 1.2em;
+      margin-bottom: 20px;
+    }
+
+    .quick-links {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 40px;
+    }
+
+    .quick-links a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.1em;
+      padding: 10px 20px;
+      border: 2px solid #fff;
+      border-radius: 5px;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    .quick-links a:hover {
+      background: #fff;
+      color: #000;
+    }
+
+    .featured-clients {
+      padding: 20px;
+    }
+
+    .featured-clients h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    .featured-clients img {
+      max-width: 100px;
+      margin: 10px;
+    }
+  </style>
 </head>
 
 <body>
   <div class="hero_area">
-    <!-- header section strats -->
-<?php 
-include "header.php";
-?>
+    <!-- header section starts -->
+    <?php include "header.php"; ?>
     <!-- end header section -->
-
-    <section class="slider_section">
-      <div class="container-fluid">
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="row">
-                <div class="col-md-3 col-lg-2 offset-md-2">
-                  <div class="detail-box">
-                    <h1>
-                      Make Design
-                    </h1>
-                    <p>
-                      There are many variations of passages of Lorem Ipsum
-                      available, but the majority
-                    </p>
-                    <div>
-                      <a href="">
-                        Read More
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-7 col-lg-8">
-                  <div class="img-box">
-                    <img src="images/hero.png" alt="" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="row">
-                <div class="col-md-3 col-lg-2 offset-md-2">
-                  <div class="detail-box">
-                    <h1>
-                      Make Design
-                    </h1>
-                    <p>
-                      There are many variations of passages of Lorem Ipsum
-                      available, but the majority
-                    </p>
-                    <div>
-                      <a href="">
-                        Read More
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-7 col-lg-8">
-                  <div class="img-box">
-                    <img src="images/hero.png" alt="" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="row">
-                <div class="col-md-3 col-lg-2 offset-md-2">
-                  <div class="detail-box">
-                    <h1>
-                      Make Design
-                    </h1>
-                    <p>
-                      There are many variations of passages of Lorem Ipsum
-                      available, but the majority
-                    </p>
-                    <div>
-                      <a href="">
-                        Read More
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-7 col-lg-8">
-                  <div class="img-box">
-                    <img src="images/hero.png" alt="" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-      </div>
-    </section>
   </div>
 
   <!-- custom menu -->
-<?php 
-include "menu.php";
-?>
+  <?php include "menu.php"; ?>
   <!-- custom menu -->
 
-  <!-- about section -->
-
-  <section class="about_section layout_padding mt-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-7">
-          <div class="img-box">
-            <img src="images/about-img.png" alt="" />
-          </div>
-        </div>
-        <div class="col-md-5">
-          <div class="detail-box">
-            <div class="custom_heading-container">
-              <h2>
-                About Design
-              </h2>
-            </div>
-
-            <p>
-              It is a long established fact that a reader will be distracted
-              by the readable content of a page when looking at its layout.
-              The point of using Lorem Ipsum is that it has a more-or-less
-              normal distribution of letters, as opposed to using 'Content
-              here , content here', making it
-            </p>
-            <div>
-              <a href="">
-                About More
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
+  <!-- Hero Section -->
+  <div class="hero">
+    <img src="logo_icon.png" alt="Logo" class="logo" style="max-width: 150px; margin-bottom: 20px;">
+    <h1>Shaping Narratives, Building Trust</h1>
+    <p>We connect brands with their audience through innovative strategies and creative solutions.</p>
+    <div class="quick-links">
+      <a href="about_us.php">About Us</a>
+      <a href="services.php">Services</a>
+      <a href="contact.php">Contact</a>
+      <a href="case_studies.php">Case Studies</a>
+      <a href="blog.php">Blog</a>
     </div>
-  </section>
+  </div>
 
-  <!-- end about section -->
+  <!-- Featured Clients Section -->
+  <div class="featured-clients">
+    <h2>Featured Clients</h2>
+    <!-- Display logos of past & current partners -->
+    <img src="client_logo1.png" alt="Client 1">
+    <img src="client_logo2.png" alt="Client 2">
+    <img src="client_logo3.png" alt="Client 3">
+    <!-- Add more client logos as needed -->
+  </div>
 
-  <!-- do section -->
-  <section class="do_section layout_padding-bottom">
-    <div class="container">
-      <div class="custom_heading-container">
-        <h2>
-          What we do
-        </h2>
-      </div>
-      <div class="row">
-        <div class="col-md-3 col-sm-6">
-          <div class="content-box bg-red">
-            <div class="img-box">
-              <img src="images/idea.png" alt="" />
-            </div>
-            <div class="detail-box">
-              <h6>
-                Original Ideas
-              </h6>
-              <p>
-                It is a long established fact that a reader will be distracted
-                by the readable content
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="content-box bg-green">
-            <div class="img-box">
-              <img src="images/controller.png" alt="" />
-            </div>
-            <div class="detail-box">
-              <h6>
-                Great apps
-              </h6>
-              <p>
-                It is a long established fact that a reader will be distracted
-                by the readable content
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="content-box bg-red">
-            <div class="img-box">
-              <img src="images/monitor.png" alt="" />
-            </div>
-            <div class="detail-box">
-              <h6>
-                High Resolution
-              </h6>
-              <p>
-                It is a long established fact that a reader will be distracted
-                by the readable content
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="content-box bg-green">
-            <div class="img-box">
-              <img src="images/rocket-ship.png" alt="" />
-            </div>
-            <div class="detail-box">
-              <h6>
-                Fast Loading
-              </h6>
-              <p>
-                It is a long established fact that a reader will be distracted
-                by the readable content
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- end do section -->
-  <!-- skill section -->
-
-  <section class="skill_section layout_padding2">
-    <div class="container">
-      <div class="custom_heading-container">
-        <h2>
-          Our Skills
-        </h2>
-      </div>
-      <div class="skill_padding">
-        <div class="row">
-          <div class="col-md-3 col-sm-6">
-            <div class="box">
-              <div class="circle" id="circles-1"></div>
-              <h6>
-                Adobe Photoshop
-              </h6>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="box">
-              <div class="circle" id="circles-2"></div>
-              <h6>
-                Adobe Ilustrator
-              </h6>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="box">
-              <div class="circle" id="circles-3"></div>
-              <h6>
-                After Effects
-              </h6>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="box">
-              <div class="circle" id="circles-4"></div>
-              <h6>
-                Adobe XD
-              </h6>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- end skill section -->
-
-  <!-- portfolio section -->
-  <section class="portfolio_section layout_padding">
-    <div class="container">
-      <div class="custom_heading-container">
-        <h2>
-          Our Portfolio
-        </h2>
-      </div>
-    </div>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="row">
-            <div class="col-sm-6">
-              <div class="box b-1">
-                <img src="images/p-1.png" alt="" />
-                <h4>
-                  Logo Design
-                </h4>
-              </div>
-              <div class="box b-2">
-                <img src="images/p-2.png" alt="" />
-                <h4>
-                  Coding
-                </h4>
-              </div>
-            </div>
-            <div class="col-sm-6">
-              <div class="box b-3">
-                <img src="images/p-3.png" alt="" />
-                <h4>
-                  Bike Design
-                </h4>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="row">
-            <div class="col-sm-6">
-              <div class="box b-4">
-                <img src="images/p-4.png" alt="" />
-                <h4>
-                  Flower Design
-                </h4>
-              </div>
-              <div class="box b-5">
-                <img src="images/p-5.png" alt="" />
-                <h4>
-                  Website Design
-                </h4>
-              </div>
-            </div>
-            <div class="col-sm-6">
-              <div class="box b-6">
-                <img src="images/p-6.jpg" alt="" />
-                <h4>
-                  More Design
-                </h4>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- end portfolio section -->
-
-  <!-- client section -->
-  <section class="client_section layout_padding-bottom">
-    <div class="container">
-      <div class="custom_heading-container">
-        <h2>
-          Testimonial
-        </h2>
-      </div>
-    </div>
-
-    <div class="container">
-      <div id="carouselExample2Controls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="client_container layout_padding2">
-              <div class="client_box b-1">
-                <div class="client-id">
-                  <div class="img-box">
-                    <img src="images/client-1.jpg" alt="" />
-                  </div>
-                  <div class="name">
-                    <h5>
-                      smirth jon
-                    </h5>
-                    <p>
-                      client
-                    </p>
-                  </div>
-                </div>
-                <div class="detail">
-                  <p>
-                    It is a long established fact that a reader will be distracted
-                    by the readable content of a page when looking at its layout.
-                    The point of using Lorem Ipsum is that it has a more-or-less
-                    normal distribution of letters, as opposed to using 'Content
-                    here, content here', making it look like readable English. Many
-                    desktop publishing packages and web page editors now use Lorem
-                    Ipsum as their default model It is a long established fact that
-                    a reader will be distracted by the readable content of a page
-                    when looking at its layout. The point of using Lorem Ipsum is
-                    that it has a more-or-less normal distribution of letters, as
-                    opposed to using 'Content here, content here', making it look
-                    like readable English. Many desktop publishing packages and web
-                    page editors now use Lorem Ipsum as their default model
-                  </p>
-                </div>
-              </div>
-              <div class="client_box b-2">
-                <div class="client-id">
-                  <div class="img-box">
-                    <img src="images/client-2.jpg" alt="" />
-                  </div>
-                  <div class="name">
-                    <h5>
-                      smirth den
-                    </h5>
-                    <p>
-                      client
-                    </p>
-                  </div>
-                </div>
-                <div class="detail">
-                  <p>
-                    It is a long established fact that a reader will be distracted
-                    by the readable content of a page when looking at its layout.
-                    The point of using Lorem Ipsum is that it has a more-or-less
-                    normal distribution of letters, as opposed to using 'Content
-                    here, content here', making it look like readable English. Many
-                    desktop publishing packages and web page editors now use Lorem
-                    Ipsum as their default model It is a long established fact that
-                    a reader will be distracted by the readable content of a page
-                    when looking at its layout. The point of using Lorem Ipsum is
-                    that it has a more-or-less normal distribution of letters, as
-                    opposed to using 'Content here, content here', making it look
-                    like readable English. Many desktop publishing packages and web
-                    page editors now use Lorem Ipsum as their default model
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="client_container layout_padding2">
-              <div class="client_box b-1">
-                <div class="client-id">
-                  <div class="img-box">
-                    <img src="images/client-1.jpg" alt="" />
-                  </div>
-                  <div class="name">
-                    <h5>
-                      smirth jon
-                    </h5>
-                    <p>
-                      client
-                    </p>
-                  </div>
-                </div>
-                <div class="detail">
-                  <p>
-                    It is a long established fact that a reader will be distracted
-                    by the readable content of a page when looking at its layout.
-                    The point of using Lorem Ipsum is that it has a more-or-less
-                    normal distribution of letters, as opposed to using 'Content
-                    here, content here', making it look like readable English. Many
-                    desktop publishing packages and web page editors now use Lorem
-                    Ipsum as their default model It is a long established fact that
-                    a reader will be distracted by the readable content of a page
-                    when looking at its layout. The point of using Lorem Ipsum is
-                    that it has a more-or-less normal distribution of letters, as
-                    opposed to using 'Content here, content here', making it look
-                    like readable English. Many desktop publishing packages and web
-                    page editors now use Lorem Ipsum as their default model
-                  </p>
-                </div>
-              </div>
-              <div class="client_box b-2">
-                <div class="client-id">
-                  <div class="img-box">
-                    <img src="images/client-2.jpg" alt="" />
-                  </div>
-                  <div class="name">
-                    <h5>
-                      smirth den
-                    </h5>
-                    <p>
-                      client
-                    </p>
-                  </div>
-                </div>
-                <div class="detail">
-                  <p>
-                    It is a long established fact that a reader will be distracted
-                    by the readable content of a page when looking at its layout.
-                    The point of using Lorem Ipsum is that it has a more-or-less
-                    normal distribution of letters, as opposed to using 'Content
-                    here, content here', making it look like readable English. Many
-                    desktop publishing packages and web page editors now use Lorem
-                    Ipsum as their default model It is a long established fact that
-                    a reader will be distracted by the readable content of a page
-                    when looking at its layout. The point of using Lorem Ipsum is
-                    that it has a more-or-less normal distribution of letters, as
-                    opposed to using 'Content here, content here', making it look
-                    like readable English. Many desktop publishing packages and web
-                    page editors now use Lorem Ipsum as their default model
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="client_container layout_padding2">
-              <div class="client_box b-1">
-                <div class="client-id">
-                  <div class="img-box">
-                    <img src="images/client-1.jpg" alt="" />
-                  </div>
-                  <div class="name">
-                    <h5>
-                      smirth jon
-                    </h5>
-                    <p>
-                      client
-                    </p>
-                  </div>
-                </div>
-                <div class="detail">
-                  <p>
-                    It is a long established fact that a reader will be distracted
-                    by the readable content of a page when looking at its layout.
-                    The point of using Lorem Ipsum is that it has a more-or-less
-                    normal distribution of letters, as opposed to using 'Content
-                    here, content here', making it look like readable English. Many
-                    desktop publishing packages and web page editors now use Lorem
-                    Ipsum as their default model It is a long established fact that
-                    a reader will be distracted by the readable content of a page
-                    when looking at its layout. The point of using Lorem Ipsum is
-                    that it has a more-or-less normal distribution of letters, as
-                    opposed to using 'Content here, content here', making it look
-                    like readable English. Many desktop publishing packages and web
-                    page editors now use Lorem Ipsum as their default model
-                  </p>
-                </div>
-              </div>
-              <div class="client_box b-2">
-                <div class="client-id">
-                  <div class="img-box">
-                    <img src="images/client-2.jpg" alt="" />
-                  </div>
-                  <div class="name">
-                    <h5>
-                      smirth den
-                    </h5>
-                    <p>
-                      client
-                    </p>
-                  </div>
-                </div>
-                <div class="detail">
-                  <p>
-                    It is a long established fact that a reader will be distracted
-                    by the readable content of a page when looking at its layout.
-                    The point of using Lorem Ipsum is that it has a more-or-less
-                    normal distribution of letters, as opposed to using 'Content
-                    here, content here', making it look like readable English. Many
-                    desktop publishing packages and web page editors now use Lorem
-                    Ipsum as their default model It is a long established fact that
-                    a reader will be distracted by the readable content of a page
-                    when looking at its layout. The point of using Lorem Ipsum is
-                    that it has a more-or-less normal distribution of letters, as
-                    opposed to using 'Content here, content here', making it look
-                    like readable English. Many desktop publishing packages and web
-                    page editors now use Lorem Ipsum as their default model
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExample2Controls" role="button" data-slide="prev">
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExample2Controls" role="button" data-slide="next">
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- end client section -->
-
-  <!-- contact section -->
-
-  <section class="contact_section ">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-4 offset-lg-2 col-md-5 offset-md-1">
-          <h2 class="custom_heading">Contact Us</h2>
-          <form action="#">
-            <div>
-              <input type="text" placeholder="Name" />
-            </div>
-            <div>
-              <input type="email" placeholder="Email" />
-            </div>
-            <div>
-              <input type="text" placeholder="Pone Number" />
-            </div>
-            <div>
-              <input type="text" class="message-box" placeholder="Message" />
-            </div>
-            <div class="d-flex  mt-4 ">
-              <button>
-                SEND
-              </button>
-            </div>
-          </form>
-        </div>
-        <div class="col-md-6 px-0">
-          <div class="img-box">
-            <img src="images/contact.jpg" alt="" class="w-100" />
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- end contact section -->
-
-  <!-- info section -->
+  <!-- footer section -->
   <?php include "footer.php"; ?>
   <!-- footer section -->
 
@@ -642,8 +136,6 @@ include "menu.php";
   <script src="js/bootstrap.js"></script>
   <script src="js/circles.min.js"></script>
   <script src="js/custom.js"></script>
-
-
 </body>
 
 </html>
