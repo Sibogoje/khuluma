@@ -48,15 +48,15 @@
     }
 
     .bg-red {
-      background-color: #d9534f;
+      background-color:rgb(178, 31, 26);
     }
 
     .bg-grey {
-      background-color: #6c757d;
+      background-color:rgb(50, 51, 52);
     }
 
     .bg-black {
-      background-color: #343a40;
+      background-color:rgb(0, 0, 0);
     }
   </style>
 
