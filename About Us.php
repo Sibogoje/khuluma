@@ -157,7 +157,7 @@
       <div class="row align-items-center">
         <div class="col-md-6">
           <div class="img-box">
-            <img src="images/about-img.png" alt="About Us Image" class="img-fluid" />
+            <img src="images/bg.jpg" alt="About Us Image" class="img-fluid" />
           </div>
         </div>
         <div class="col-md-6">
