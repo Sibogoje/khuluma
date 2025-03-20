@@ -98,12 +98,8 @@
     <!-- header section starts -->
     <?php include "header.php"; ?>
     <!-- end header section -->
-  </div>
 
-
-  <!-- slider courasel area -->
-
-  <section class="slider_section">
+    <section class="slider_section">
       <div class="container-fluid">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
@@ -193,6 +189,12 @@
       </div>
     </section>
   </div>
+  </div>
+
+
+  <!-- slider courasel area -->
+
+
 
 
 
