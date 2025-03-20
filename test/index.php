@@ -108,17 +108,11 @@
                 <div class="col-md-3 col-lg-2 offset-md-2">
                   <div class="detail-box">
                     <h1>
-                      Make Design
+                      Our Commitment
                     </h1>
                     <p>
-                      There are many variations of passages of Lorem Ipsum
-                      available, but the majority
+                      We write stories that reflect the power of your brand
                     </p>
-                    <div>
-                      <a href="">
-                        Read More
-                      </a>
-                    </div>
                   </div>
                 </div>
                 <div class="col-md-7 col-lg-8">
