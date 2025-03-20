@@ -47,17 +47,6 @@
             padding-bottom: 10px;
         }
 
-        .section-title h2::after {
-            content: '';
-            position: absolute;
-            left: 50%;
-            bottom: 0;
-            width: 50px;
-            height: 3px;
-            background: #007bff;
-            transform: translateX(-50%);
-        }
-
         /* Thought Leadership Section */
         .thought_leadership_section {
             padding: 100px 0;
@@ -147,7 +136,7 @@
     <section class="thought_leadership_section">
         <div class="container">
             <div class="section-title">
-                <h2>Thought Leadership</h2>
+                <h2 style="border-bottom: none;">Thought Leadership</h2>
             </div>
             <div class="article">
                 <h3>Article Title 1</h3>
@@ -170,7 +159,7 @@
     <section class="case_studies_section">
         <div class="container">
             <div class="section-title">
-                <h2>Case Studies & Success Stories</h2>
+                <h2 style="border-bottom: none;">Case Studies & Success Stories</h2>
             </div>
             <div class="case-study">
                 <h3>Case Study Title 1</h3>
@@ -193,7 +182,7 @@
     <section class="industry_insights_section">
         <div class="container">
             <div class="section-title">
-                <h2>Industry Insights</h2>
+                <h2 style="border-bottom: none;">Industry Insights</h2>
             </div>
             <div class="insight">
                 <h3>Insight Title 1</h3>
