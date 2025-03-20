@@ -65,46 +65,28 @@
         .thought_leadership_section .article p {
             font-size: 1em;
             color: #6c757d;
+            text-align: justify;
         }
 
-        /* Case Studies Section */
-        .case_studies_section {
-            padding: 100px 0;
-            background: #fff;
+        .thought_leadership_section .article p:first-letter {
+            font-size: 2em;
+            font-weight: bold;
+            float: left;
+            margin-right: 8px;
+            line-height: 1;
         }
 
-        .case_studies_section .case-study {
-            margin-bottom: 30px;
+        .thought_leadership_section .article blockquote {
+            margin: 20px 0;
+            padding: 10px 20px;
+            background: #e9ecef;
+            border-left: 5px solid #007bff;
+            font-style: italic;
+            color: #495057;
         }
 
-        .case_studies_section .case-study h3 {
-            font-size: 1.8em;
-            margin-bottom: 10px;
-        }
-
-        .case_studies_section .case-study p {
-            font-size: 1em;
-            color: #6c757d;
-        }
-
-        /* Industry Insights Section */
-        .industry_insights_section {
-            padding: 100px 0;
-            background: #f8f9fa;
-        }
-
-        .industry_insights_section .insight {
-            margin-bottom: 30px;
-        }
-
-        .industry_insights_section .insight h3 {
-            font-size: 1.8em;
-            margin-bottom: 10px;
-        }
-
-        .industry_insights_section .insight p {
-            font-size: 1em;
-            color: #6c757d;
+        .thought_leadership_section .article blockquote p {
+            margin: 0;
         }
 
         /* Footer */
@@ -141,80 +123,27 @@
             <div class="article">
                 <h3>The Power of Brand Stories</h3>
                 <p>
-                
-Storytelling is the interactive art of using words and actions to reveal the
-elements and images of a story while encouraging the listener’s imagination.
-
-Stories help people find purpose and meaning. They shape perceptions,
-cultivate empathy and understanding, and facilitate growth. Stories help us
-appreciate the complexities of the human condition and recognise our shared
-humanity.
-
-Stories connect each one of us with specific brands. 
-
-The power of storytelling is not in its length or its intricate plot. It is in its ability
-to open our minds and make us compassionate as we see the world through a
-broader lens.
-
-Khuluma Eswatini believes that every brand has a story to tell. However, once
-your brand story is told, your target audience may only know it and be inspired
-to act.
-
-As you focus on your core business, we’ll help you tell your story because our
-mission is to write stories that reflect the power of your brand.
+                    Storytelling is the interactive art of using words and actions to reveal the elements and images of a story while encouraging the listener’s imagination.
+                </p>
+                <blockquote>
+                    <p>
+                        "Stories help people find purpose and meaning. They shape perceptions, cultivate empathy and understanding, and facilitate growth. Stories help us appreciate the complexities of the human condition and recognise our shared humanity."
+                    </p>
+                </blockquote>
+                <p>
+                    Stories connect each one of us with specific brands. The power of storytelling is not in its length or its intricate plot. It is in its ability to open our minds and make us compassionate as we see the world through a broader lens.
+                </p>
+                <p>
+                    Khuluma Eswatini believes that every brand has a story to tell. However, once your brand story is told, your target audience may only know it and be inspired to act.
+                </p>
+                <p>
+                    As you focus on your core business, we’ll help you tell your story because our mission is to write stories that reflect the power of your brand.
                 </p>
             </div>
-
             <!-- Add more articles as needed -->
         </div>
     </section>
     <!-- end Thought Leadership Section -->
-
-    <!-- Case Studies Section -->
-    <!-- <section class="case_studies_section">
-        <div class="container">
-            <div class="section-title">
-                <h2 style="border-bottom: none;">Case Studies & Success Stories</h2>
-            </div>
-            <div class="case-study">
-                <h3>Case Study Title 1</h3>
-                <p>
-                    This is a brief description of the case study. It showcases a previous project with client testimonials and highlights the success achieved.
-                </p>
-            </div>
-            <div class="case-study">
-                <h3>Case Study Title 2</h3>
-                <p>
-                    This is a brief description of the case study. It showcases a previous project with client testimonials and highlights the success achieved.
-                </p>
-            </div>
-            <!-- Add more case studies as needed -->
-        </div>
-    <!-- </section> -->
-    <!-- end Case Studies Section -->
-
-    <!-- Industry Insights Section -->
-    <!-- <section class="industry_insights_section">
-        <div class="container">
-            <div class="section-title">
-                <h2 style="border-bottom: none;">Industry Insights</h2>
-            </div>
-            <div class="insight">
-                <h3>Insight Title 1</h3>
-                <p>
-                    This is a brief description of the industry insight. It provides valuable information and trends in the field of communications and public relations.
-                </p>
-            </div>
-            <div class="insight">
-                <h3>Insight Title 2</h3>
-                <p>
-                    This is a brief description of the industry insight. It provides valuable information and trends in the field of communications and public relations.
-                </p>
-            </div>
-            <!-- Add more insights as needed -->
-        </div>
-    <!-- </section> --> 
-    <!-- end Industry Insights Section -->
 
     <!-- footer section -->
     <?php include "footer.php"; ?>
