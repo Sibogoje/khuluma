@@ -42,21 +42,21 @@
       <div class="row">
         <div class="col-lg-4 offset-lg-2 col-md-5 offset-md-1">
           <h2 class="custom_heading">Contact Us</h2>
-          <form action="#">
+          <form action="send_email.php" method="POST">
             <div>
-              <input type="text" placeholder="Name" />
+              <input type="text" name="name" placeholder="Name" required />
             </div>
             <div>
-              <input type="email" placeholder="Email" />
+              <input type="email" name="email" placeholder="Email" required />
             </div>
             <div>
-              <input type="text" placeholder="Pone Number" />
+              <input type="text" name="phone" placeholder="Phone Number" required />
             </div>
             <div>
-              <input type="text" class="message-box" placeholder="Message" />
+              <input type="text" name="message" class="message-box" placeholder="Message" required />
             </div>
             <div class="d-flex  mt-4 ">
-              <button>
+              <button type="submit">
                 SEND
               </button>
             </div>
