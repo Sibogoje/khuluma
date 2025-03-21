@@ -13,6 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (mail($to, $subject, $body, $headers)) {
         echo "Message sent successfully!";
     } else {
+        error_log("Failed to send email to $to from $email", 0);
         echo "Failed to send message.";
     }
 } else {
