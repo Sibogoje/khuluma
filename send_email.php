@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $subject = "New Contact Form Submission";
     $body = "Name: $name\nEmail: $email\nPhone: $phone\nMessage:\n$message";
     $headers = "From: $email";
-    $headers .= "\r\nReply-To: $email";
+    $headers .= "Reply-To: $email";
 
 
     if (mail($to, $subject, $body, $headers)) {
