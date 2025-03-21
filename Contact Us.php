@@ -14,35 +14,48 @@
 
   <title>Contact Us</title>
   <?php include "imports.php"; ?>
+  <style>
+    .alert {
+      display: none;
+      padding: 15px;
+      margin-top: 20px;
+      border: 1px solid transparent;
+      border-radius: 4px;
+    }
+
+    .alert-success {
+      color: #155724;
+      background-color: #d4edda;
+      border-color: #c3e6cb;
+    }
+
+    .alert-danger {
+      color: #721c24;
+      background-color: #f8d7da;
+      border-color: #f5c6cb;
+    }
+  </style>
 </head>
 
 <body class="sub_page">
   <div class="hero_area">
-    <!-- header section strats -->
-    <?php 
-    include "header.php";
-    ?>
+    <!-- header section starts -->
+    <?php include "header.php"; ?>
     <!-- end header section -->
-
-
   </div>
 
   <!-- custom menu -->
-  <?php 
-  include "menu.php";
-  ?>
-
+  <?php include "menu.php"; ?>
   <!-- custom menu -->
 
-
   <!-- contact section -->
-
   <section class="contact_section">
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-4 offset-lg-2 col-md-5 offset-md-1">
           <h2 class="custom_heading">Contact Us</h2>
-          <form action="send_email.php" method="POST">
+          <div id="alert" class="alert"></div>
+          <form id="contactForm" action="send_email.php" method="POST">
             <div>
               <input type="text" name="name" placeholder="Name" required />
             </div>
@@ -55,7 +68,7 @@
             <div>
               <input type="text" name="message" class="message-box" placeholder="Message" required />
             </div>
-            <div class="d-flex  mt-4 ">
+            <div class="d-flex mt-4">
               <button type="submit">
                 SEND
               </button>
@@ -70,7 +83,6 @@
       </div>
     </div>
   </section>
-
   <!-- end contact section -->
 
   <!-- info section -->
@@ -81,6 +93,29 @@
   <script src="js/bootstrap.js"></script>
   <script src="js/circles.min.js"></script>
   <script src="js/custom.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('#contactForm').on('submit', function(e) {
+        e.preventDefault();
+        $.ajax({
+          type: 'POST',
+          url: 'send_email.php',
+          data: $(this).serialize(),
+          success: function(response) {
+            var alertBox = $('#alert');
+            if (response.trim() == 'Message sent successfully!') {
+              alertBox.removeClass('alert-danger').addClass('alert-success').text(response).fadeIn();
+            } else {
+              alertBox.removeClass('alert-success').addClass('alert-danger').text(response).fadeIn();
+            }
+            setTimeout(function() {
+              alertBox.fadeOut();
+            }, 5000);
+          }
+        });
+      });
+    });
+  </script>
 
 </body>
 
