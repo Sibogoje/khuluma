@@ -105,6 +105,7 @@
             var alertBox = $('#alert');
             if (response.trim() == 'Message sent successfully!') {
               alertBox.removeClass('alert-danger').addClass('alert-success').text(response).fadeIn();
+              $('#contactForm')[0].reset();
             } else {
               alertBox.removeClass('alert-success').addClass('alert-danger').text(response).fadeIn();
             }
