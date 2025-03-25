@@ -53,40 +53,54 @@
             background: #f8f9fa;
         }
 
-        .thought_leadership_section .article {
-            margin-bottom: 30px;
+        .thought_leadership_section .row {
+            display: flex;
+            flex-wrap: wrap;
         }
 
-        .thought_leadership_section .article h3 {
-            font-size: 1.8em;
+        .thought_leadership_section .col-md-6 {
+            flex: 0 0 50%;
+            max-width: 50%;
+            padding: 15px;
+        }
+
+        .thought_leadership_section .img-box img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .accordion .card {
             margin-bottom: 10px;
         }
 
-        .thought_leadership_section .article p {
-            font-size: 1em;
-            color: #6c757d;
-            text-align: justify;
+        .accordion .card-header {
+            padding: 0;
+            border: none;
+            background: none;
         }
 
-        .thought_leadership_section .article p:first-letter {
-            font-size: 2em;
+        .accordion .card-header button {
+            width: 100%;
+            text-align: left;
+            padding: 15px;
+            font-size: 1.2em;
             font-weight: bold;
-            float: left;
-            margin-right: 8px;
-            line-height: 1;
-        }
-
-        .thought_leadership_section .article blockquote {
-            margin: 20px 0;
-            padding: 10px 20px;
+            color: #343a40;
             background: #e9ecef;
-            border-left: 5px solid #007bff;
-            font-style: italic;
-            color: #495057;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
         }
 
-        .thought_leadership_section .article blockquote p {
-            margin: 0;
+        .accordion .card-header button:focus {
+            outline: none;
+        }
+
+        .accordion .card-body {
+            padding: 15px;
+            background: #fff;
+            border: 1px solid #e9ecef;
+            border-top: none;
         }
 
         /* Footer */
@@ -120,27 +134,50 @@
             <div class="section-title">
                 <h2 style="border-bottom: none;">Thought Leadership</h2>
             </div>
-            <div class="article">
-                <h3>The Power of Brand Stories</h3>
-                <p>
-                    Storytelling is the interactive art of using words and actions to reveal the elements and images of a story while encouraging the listener’s imagination.
-                </p>
-                <blockquote>
-                    <p>
-                        "Stories help people find purpose and meaning. They shape perceptions, cultivate empathy and understanding, and facilitate growth. Stories help us appreciate the complexities of the human condition and recognise our shared humanity."
-                    </p>
-                </blockquote>
-                <p>
-                    Stories connect each one of us with specific brands. The power of storytelling is not in its length or its intricate plot. It is in its ability to open our minds and make us compassionate as we see the world through a broader lens.
-                </p>
-                <p>
-                    Khuluma Eswatini believes that every brand has a story to tell. However, once your brand story is told, your target audience may only know it and be inspired to act.
-                </p>
-                <p>
-                    As you focus on your core business, we’ll help you tell your story because our mission is to write stories that reflect the power of your brand.
-                </p>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="img-box">
+                        <img src="images/poster1.jpg" alt="Poster 1" />
+                    </div>
+                    <div class="img-box">
+                        <img src="images/poster2.jpg" alt="Poster 2" />
+                    </div>
+                    <!-- Add more posters as needed -->
+                </div>
+                <div class="col-md-6">
+                    <div class="accordion" id="accordionExample">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    The Power of Brand Stories
+                                </button>
+                            </div>
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <p>
+                                        Storytelling is the interactive art of using words and actions to reveal the elements and images of a story while encouraging the listener’s imagination.
+                                    </p>
+                                    <blockquote>
+                                        <p>
+                                            "Stories help people find purpose and meaning. They shape perceptions, cultivate empathy and understanding, and facilitate growth. Stories help us appreciate the complexities of the human condition and recognise our shared humanity."
+                                        </p>
+                                    </blockquote>
+                                    <p>
+                                        Stories connect each one of us with specific brands. The power of storytelling is not in its length or its intricate plot. It is in its ability to open our minds and make us compassionate as we see the world through a broader lens.
+                                    </p>
+                                    <p>
+                                        Khuluma Eswatini believes that every brand has a story to tell. However, once your brand story is told, your target audience may only know it and be inspired to act.
+                                    </p>
+                                    <p>
+                                        As you focus on your core business, we’ll help you tell your story because our mission is to write stories that reflect the power of your brand.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Add more articles as needed -->
+                    </div>
+                </div>
             </div>
-            <!-- Add more articles as needed -->
         </div>
     </section>
     <!-- end Thought Leadership Section -->
