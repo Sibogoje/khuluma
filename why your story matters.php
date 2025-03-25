@@ -58,9 +58,15 @@
             flex-wrap: wrap;
         }
 
-        .thought_leadership_section .col-md-6 {
-            flex: 0 0 50%;
-            max-width: 50%;
+        .thought_leadership_section .col-md-4 {
+            flex: 0 0 33.3333%;
+            max-width: 33.3333%;
+            padding: 15px;
+        }
+
+        .thought_leadership_section .col-md-8 {
+            flex: 0 0 66.6667%;
+            max-width: 66.6667%;
             padding: 15px;
         }
 
@@ -68,6 +74,7 @@
             max-height: 300px;
             overflow: hidden;
             margin-bottom: 15px;
+            cursor: pointer;
         }
 
         .thought_leadership_section .img-box img {
@@ -121,6 +128,14 @@
         footer p {
             margin: 0;
         }
+
+        @media (max-width: 768px) {
+            .thought_leadership_section .col-md-4,
+            .thought_leadership_section .col-md-8 {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+        }
     </style>
 </head>
 
@@ -142,16 +157,16 @@
                 <h2 style="border-bottom: none;">Thought Leadership</h2>
             </div>
             <div class="row">
-                <div class="col-md-6">
-                    <div class="img-box">
+                <div class="col-md-4">
+                    <div class="img-box" data-toggle="modal" data-target="#imageModal" data-src="images/articles/2.jpg">
                         <img src="images/articles/2.jpg" alt="Poster 1" />
                     </div>
-                    <div class="img-box">
+                    <div class="img-box" data-toggle="modal" data-target="#imageModal" data-src="images/articles/1.jpg">
                         <img src="images/articles/1.jpg" alt="Poster 2" />
                     </div>
                     <!-- Add more posters as needed -->
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-8">
                     <div class="accordion" id="accordionExample">
                         <div class="card">
                             <div class="card-header" id="headingOne">
@@ -215,6 +230,23 @@
     </section>
     <!-- end Thought Leadership Section -->
 
+    <!-- Image Modal -->
+    <div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="imageModalLabel">Image</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img id="modalImage" src="" alt="Image" class="img-fluid" />
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- footer section -->
     <?php include "footer.php"; ?>
     <!-- footer section -->
@@ -223,6 +255,15 @@
     <script src="js/bootstrap.js"></script>
     <script src="js/circles.min.js"></script>
     <script src="js/custom.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.img-box').on('click', function() {
+                var src = $(this).data('src');
+                $('#modalImage').attr('src', src);
+                $('#imageModal').modal('show');
+            });
+        });
+    </script>
 </body>
 
 </html>
