@@ -64,8 +64,15 @@
             padding: 15px;
         }
 
+        .thought_leadership_section .img-box {
+            max-height: 300px;
+            overflow: hidden;
+            margin-bottom: 15px;
+        }
+
         .thought_leadership_section .img-box img {
             width: 100%;
+            height: auto;
             border-radius: 10px;
         }
 
