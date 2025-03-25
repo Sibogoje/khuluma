@@ -137,10 +137,10 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="img-box">
-                        <img src="images/poster1.jpg" alt="Poster 1" />
+                        <img src="images/articles/2.jpg" alt="Poster 1" />
                     </div>
                     <div class="img-box">
-                        <img src="images/poster2.jpg" alt="Poster 2" />
+                        <img src="images/articles/1.jpg" alt="Poster 2" />
                     </div>
                     <!-- Add more posters as needed -->
                 </div>
@@ -170,6 +170,32 @@
                                     </p>
                                     <p>
                                         As you focus on your core business, we’ll help you tell your story because our mission is to write stories that reflect the power of your brand.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Khuluma Eswatini partners with 360 Talks
+                                </button>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <p>
+                                        Khuluma Eswatini has partnered with 360 Talks to provide communication support in hosting an upcoming empowerment session on April 12th, 2025.
+                                    </p>
+                                    <p>
+                                        360 Talks is an entrepreneurial engagement forum that Sindi Simelane, a recipient of the Entrepreneur of the Year Award (EYA) for the Hhohho Region, founded in 2024. Simelane is the director of Café 360 and Mugg & Bean, a franchise that recently expanded to Mbabane.
+                                    </p>
+                                    <p>
+                                        A unique feature of these sessions is that, beyond the presentations by different speakers, they allow participants to use their hands and minds in various practical application exercises. These exercises create meaningful conversations, enforce learning, and enable participants to translate their aspirations into actionable goals that they can monitor throughout the year.
+                                    </p>
+                                    <p>
+                                        Speaking on the entrepreneurial sessions, Simelane said, "I aspire to be a catalyst for growth, inspiring fellow EmaSwati to take ownership of their lives and contribute to our economy."
+                                    </p>
+                                    <p>
+                                        Simelane views entrepreneurship as a powerful driver of economic transformation and actively seeks collaborations with government organisations focused on export growth and economic development. Simelane's message to aspiring entrepreneurs is clear: "Learn, serve, and build relationships.”
                                     </p>
                                 </div>
                             </div>
