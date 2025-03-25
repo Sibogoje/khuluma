@@ -137,7 +137,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="img-box">
-                        <img src="images/articles/2.jpg" alt="Poster 1" />
+                        <img src="images/articles/2.jpeg" alt="Poster 1" />
                     </div>
                     <div class="img-box">
                         <img src="images/articles/1.jpg" alt="Poster 2" />
