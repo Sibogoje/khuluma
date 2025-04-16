@@ -133,7 +133,7 @@
 
     <section class="slider_section">
       <div class="container-fluid">
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <!-- <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <div class="row">
@@ -199,7 +199,7 @@
           <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
             <span class="sr-only">Next</span>
           </a>
-        </div>
+        </div> -->
       </div>
     </section>
   </div>
