@@ -79,11 +79,22 @@
             text-align: center;
         }
 
+        .slider_section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Full viewport height */
+        }
+
+        .slider_section .carousel-inner {
+            width: 100%;
+            max-width: 800px; /* Optional: Limit the width of the slider */
+        }
+
         .slider_section .carousel-item {
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 300px;
         }
 
         .slider_section .detail-box {
