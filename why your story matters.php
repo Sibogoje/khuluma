@@ -168,7 +168,7 @@
                 </div>
                 <div class="col-md-8">
                     <div class="accordion" id="accordionExample">
-                    <div class="card">
+                        <div class="card">
                             <div class="card-header" id="headingTwo">
                                 <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                     Khuluma Eswatini partners with 360 Talks
@@ -222,7 +222,44 @@
                                 </div>
                             </div>
                         </div>
-
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    360 Talks hosts Second Seminar
+                                </button>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <p>
+                                        This past Saturday, Sindi Simelane, Director of Café 360 and Mugg & Bean, hosted her second seminar, themed “The Power of Execution.” The second instalment follows an initial one hosted in December 2024, themed “Sowing Seeds.” One of the distinctive features of 360 Talks Seminars is that it uses storytelling as a tool to inspire and empower others. Furthermore, during the seminar, participants engage in practical exercises that enhance their journeys and facilitate networking opportunities, allowing them to meet new people.
+                                    </p>
+                                    <p>
+                                        The second seminar brought together entrepreneurs, professionals, and recent graduates from all walks of life in laid-back conversations that tally with the weekend mood. The seminar featured three speakers: Sindi Simelane, the host; Central Bank of Eswatini’s Head Strategy and Communication and Chairman of Khuluma Eswatini Mandla Luphondvo; Nedbank Managing Director, Fikile Nkosi; and Digimage’s Founder and Director, Sindiso Dlamini.
+                                    </p>
+                                    <p>
+                                        Sindi Simelane, the first speaker and host, shared her journey of how, as a 14-year-old, she had a dream of owning a cookie factory. While she nursed the vision in her head, she loved the pleasant sight of perfect-picture-images of elegant restaurants in glossy magazines. However, her dream only began manifesting in life some 26 years later. Even then, it was not in the exact shape and form she had imagined as a child. At least she had kept the dream alive for two and a half decades.
+                                    </p>
+                                    <p>
+                                        Since the dream was in her heart, head and hands, Simelane did a lot of heavy lifting and spadework to support it. She understood that a dream without action is merely wishful thinking. She leveraged her faith, family support and used a vision board as a tool that kept her dream alive. Simelane acquired two master's degrees, one in business administration and the other in food science. She gained cumulative experience in her field. That experience didn’t come easily.
+                                    </p>
+                                    <p>
+                                        Simelane had to work in a factory environment under extreme heat and often in a male-dominated environment. Working on weekends was the norm.
+                                    </p>
+                                    <p>
+                                        “The factory environment is tough,” she told the audience, equating this environment to fires that helped fuel her dream. She admits, though, that there would be days when she questioned why she was working in another person’s factory while her cookie factory was not up and running.
+                                    </p>
+                                    <p>
+                                        Down her path, Simelane established 360 Holdings (Pty) Ltd. She admits that while she has not settled for less than her dream, her prayer was, “Lord, if you let me start here, this is where I would start.” She indicated how spirituality had anchored her life during her lowest points.
+                                    </p>
+                                    <p>
+                                        Also speaking during the seminar was Fikile Nkosi, the Managing Director of Nedbank Eswatini. Nkosi — the country’s first female Chief Financial Officer — in Eswatini’s banking sector, shared her story of how she moved from humble beginnings to the apex position at the Bank. She also shared, to the surprise of the seminar participants, that Nedbank was the first bank to introduce automated teller machines (ATMs).
+                                    </p>
+                                    <p>
+                                        The Managing Director capped her life story with several fascinating leadership nuggets. She argued that while she supports women's empowerment, over the years, she has observed that there are instances where some women self-censor or hold back, instead of pursuing available opportunities. “Stop playing victim and remember that no one can take away who you are,” pointing out to participants their leverage.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                         <!-- Add more articles as needed -->
                     </div>
                 </div>
