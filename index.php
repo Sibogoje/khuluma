@@ -137,59 +137,32 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <div class="row">
-                <div class="col-md-3 col-lg-2 offset-md-2">
-                  <div class="detail-box">
-                    <h3>
-                      Our Commitment
-                    </h3>
-                    <p>
-                      We write stories that reflect the power of your brand
-                    </p>
+                <div class="col-md-8 offset-md-2">
+                  <div class="detail-box text-center">
+                    <h3>Our Commitment</h3>
+                    <p>We write stories that reflect the power of your brand.</p>
                   </div>
                 </div>
-                <!-- <div class="col-md-7 col-lg-8">
-                  <div class="img-box">
-                    <img src="images/hero.png" alt="" />
-                  </div>
-                </div> -->
               </div>
             </div>
             <div class="carousel-item">
               <div class="row">
-                <div class="col-md-3 col-lg-2 offset-md-2">
-                  <div class="detail-box">
-                    <h1>
-                      Work Ethic
-                    </h1>
-                    <p>
-                      Result Oriented
-                    </p>
+                <div class="col-md-8 offset-md-2">
+                  <div class="detail-box text-center">
+                    <h3>Work Ethic</h3>
+                    <p>We are result-oriented and dedicated to delivering excellence.</p>
                   </div>
                 </div>
-                <!-- <div class="col-md-7 col-lg-6">
-                  <div class="img-box">
-                    <img src="images/round.png" alt="" />
-                  </div>
-                </div> -->
               </div>
             </div>
             <div class="carousel-item">
               <div class="row">
-                <div class="col-md-3 col-lg-2 offset-md-2">
-                <div class="detail-box">
-                <h3>
-                    Fluid Communication
-                </h3>
-                <p>
-                    We understand that every brand has unique communication needs. Our approach is flexible and adaptive, ensuring that we meet your specific requirements effectively.
-                </p>
-            </div>
-            </div>
-                <!-- <div class="col-md-7 col-lg-8">
-                  <div class="img-box" >
-                    <img src="images/graph.png" alt="" style="max-width: 80%;" />
+                <div class="col-md-8 offset-md-2">
+                  <div class="detail-box text-center">
+                    <h3>Fluid Communication</h3>
+                    <p>We adapt to your unique communication needs with flexibility and precision.</p>
                   </div>
-                </div> -->
+                </div>
               </div>
             </div>
           </div>
