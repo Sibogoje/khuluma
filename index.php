@@ -149,14 +149,24 @@
     <?php include "menu.php"; ?>
     <!-- custom menu -->
 
-    <!-- Hero Section -->
-    <div class="hero"></div>
-
-    <!-- Featured Clients Section -->
-    <div class="featured-clients">
-        <!-- Display logos of past & current partners -->
-        <img src="images/limkokwing.jpg" alt="Client 1">
+<!-- Hero Section -->
+<div class="hero">
+    <img src="../logo_icon.png" alt="Logo" class="logo" style="max-width: 150px; margin-bottom: 20px;">
+    <h1>Shaping Narratives, Building Trust</h1>
+    <p>We connect brands with their audience through innovative strategies and creative solutions.</p>
+    <div class="quick-links">
+      <a href="About Us.php">About Us</a>
+      <a href="Our Services.php">Services</a>
+      <a href="Contact Us.php">Contact Us</a>
     </div>
+  </div>
+
+
+<!-- Featured Clients Section -->
+<div class="featured-clients">
+    <!-- Display logos of past & current partners -->
+    <img src="images/limkokwing.jpg" alt="Client 1">
+</div>
 
     <!-- footer section -->
     <?php include "footer.php"; ?>
