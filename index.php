@@ -43,6 +43,7 @@
       height: 100vh;
       background: rgb(88, 81, 81);
       padding: 20px;
+      text-align: center;
     }
 
     .hero h1 {
