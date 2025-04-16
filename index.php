@@ -44,6 +44,7 @@
       background: rgb(88, 81, 81);
       padding: 20px;
       text-align: center;
+      margin-top: 50px; /* Drop the text slightly */
     }
 
     .hero h1 {
