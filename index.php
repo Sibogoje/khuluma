@@ -83,27 +83,58 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh; /* Full viewport height */
+            height: 100vh;
         }
 
         .slider_section .carousel-inner {
             width: 100%;
-            max-width: 800px; /* Optional: Limit the width of the slider */
-        }
-
-        .slider_section .carousel-item {
-            display: none; /* Hide all items by default */
-            justify-content: center;
+            max-width: 800px;
+            display: flex;
+            flex-direction: column;
             align-items: center;
         }
 
+        .slider_section .carousel-item {
+            display: none;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding-bottom: 60px; /* Space for controls */
+        }
+
         .slider_section .carousel-item.active {
-            display: flex; /* Show only the active item */
+            display: flex;
+            flex-direction: column;
         }
 
         .slider_section .detail-box {
             text-align: center;
-            margin: 0 auto; /* Center horizontally */
+            margin: 0 auto;
+        }
+
+        .slider_section .carousel-controls {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            width: 100%;
+        }
+
+        .slider_section .carousel-control-prev,
+        .slider_section .carousel-control-next {
+            position: relative;
+            display: inline-block;
+            width: auto;
+            height: auto;
+            transform: none;
+            margin: 0 10px;
+        }
+
+        .slider_section .carousel-control-prev-icon,
+        .slider_section .carousel-control-next-icon {
+            background-color: rgba(0,0,0,0.5);
+            border-radius: 50%;
+            padding: 10px;
         }
     </style>
 </head>
@@ -123,11 +154,31 @@
                                 <h1>Our Commitment</h1>
                                 <p>We write stories that reflect the power of your brand.</p>
                             </div>
+                            <div class="carousel-controls">
+                                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
                         </div>
                         <div class="carousel-item">
                             <div class="detail-box">
                                 <h1>Work Ethic</h1>
                                 <p>We are result-oriented and dedicated to delivering excellence.</p>
+                            </div>
+                            <div class="carousel-controls">
+                                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
                             </div>
                         </div>
                         <div class="carousel-item">
@@ -135,16 +186,18 @@
                                 <h1>Fluid Communication</h1>
                                 <p>We adapt to your unique communication needs with flexibility and precision.</p>
                             </div>
+                            <div class="carousel-controls">
+                                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
                         </div>
                     </div>
-                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
                 </div>
             </div>
         </section>
