@@ -33,6 +33,12 @@
             background: linear-gradient(135deg, rgb(26, 30, 32), rgb(132, 30, 2));
             color: #fff;
             text-align: center;
+            overflow-x: hidden; /* Prevent horizontal scrolling */
+        }
+
+        .hero_area {
+            width: 100%;
+            overflow: hidden; /* Prevent content overflow */
         }
 
         .hero {
@@ -79,16 +85,29 @@
             text-align: center;
         }
 
+        /* Slider Section Fixes */
         .slider_section {
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
+            width: 100%;
+            padding: 0 15px; /* Add some padding */
+        }
+
+        .slider_section .container-fluid {
+            width: 100%;
+            max-width: 1200px; /* Limit maximum width */
+            padding: 0;
+        }
+
+        .slider_section .carousel {
+            width: 100%;
+            margin: 0 auto;
         }
 
         .slider_section .carousel-inner {
             width: 100%;
-            max-width: 800px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -99,7 +118,8 @@
             justify-content: center;
             align-items: center;
             text-align: center;
-            padding-bottom: 60px; /* Space for controls */
+            padding: 0 15px 60px; /* Space for controls */
+            width: 100%;
         }
 
         .slider_section .carousel-item.active {
@@ -110,6 +130,8 @@
         .slider_section .detail-box {
             text-align: center;
             margin: 0 auto;
+            width: 100%;
+            max-width: 800px; /* Limit content width */
         }
 
         .slider_section .carousel-controls {
