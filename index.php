@@ -100,30 +100,38 @@
       margin: 10px;
     }
 
-
     .navbar-brand,
-.navbar-brand:hover {
-  color:rgb(255, 255, 255);
-  font-size: 30px;
-  font-weight: 600;
-  text-transform: uppercase;
-}
+    .navbar-brand:hover {
+      color:rgb(255, 255, 255);
+      font-size: 30px;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
 
-@media (max-width: 768px) {
-  .navbar-brand,
-  .navbar-brand:hover {
-    font-size: 18px;
-  }
-}
+    @media (max-width: 768px) {
+      .navbar-brand,
+      .navbar-brand:hover {
+        font-size: 18px;
+      }
+    }
 
+    .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
+      padding: 10px 30px;
+      color:rgb(255, 255, 255);
+      font-weight: bold;
+      text-align: center;
+    }
 
-.custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
-  padding: 10px 30px;
-  color:rgb(255, 255, 255);
-  font-weight: bold;
-  text-align: center;
-}
+    .slider_section .carousel-item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 300px; /* Adjust height as needed */
+    }
 
+    .slider_section .detail-box {
+      text-align: center;
+    }
   </style>
 </head>
 
@@ -138,33 +146,21 @@
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <div class="row">
-                <div class="col-md-8 offset-md-2">
-                  <div class="detail-box text-center">
-                    <h3>Our Commitment</h3>
-                    <p>We write stories that reflect the power of your brand.</p>
-                  </div>
-                </div>
+              <div class="detail-box">
+                <h3>Our Commitment</h3>
+                <p>We write stories that reflect the power of your brand.</p>
               </div>
             </div>
             <div class="carousel-item">
-              <div class="row">
-                <div class="col-md-8 offset-md-2">
-                  <div class="detail-box text-center">
-                    <h3>Work Ethic</h3>
-                    <p>We are result-oriented and dedicated to delivering excellence.</p>
-                  </div>
-                </div>
+              <div class="detail-box">
+                <h3>Work Ethic</h3>
+                <p>We are result-oriented and dedicated to delivering excellence.</p>
               </div>
             </div>
             <div class="carousel-item">
-              <div class="row">
-                <div class="col-md-8 offset-md-2">
-                  <div class="detail-box text-center">
-                    <h3>Fluid Communication</h3>
-                    <p>We adapt to your unique communication needs with flexibility and precision.</p>
-                  </div>
-                </div>
+              <div class="detail-box">
+                <h3>Fluid Communication</h3>
+                <p>We adapt to your unique communication needs with flexibility and precision.</p>
               </div>
             </div>
           </div>
@@ -178,15 +174,6 @@
       </div>
     </section>
   </div>
-  </div>
-
-
-  <!-- slider courasel area -->
-
-
-
-
-
 
   <!-- custom menu -->
   <?php include "menu.php"; ?>
