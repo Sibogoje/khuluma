@@ -92,9 +92,13 @@
         }
 
         .slider_section .carousel-item {
-            display: flex;
+            display: none; /* Hide all items by default */
             justify-content: center;
             align-items: center;
+        }
+
+        .slider_section .carousel-item.active {
+            display: flex; /* Show only the active item */
         }
 
         .slider_section .detail-box {
