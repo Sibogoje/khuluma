@@ -103,6 +103,7 @@
 
         .slider_section .detail-box {
             text-align: center;
+            margin: 0 auto; /* Center horizontally */
         }
     </style>
 </head>
