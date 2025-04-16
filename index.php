@@ -133,7 +133,7 @@
 
     <section class="slider_section">
       <div class="container-fluid">
-        <!-- <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <div class="row">
@@ -147,11 +147,11 @@
                     </p>
                   </div>
                 </div>
-                <div class="col-md-7 col-lg-8">
+                <!-- <div class="col-md-7 col-lg-8">
                   <div class="img-box">
                     <img src="images/hero.png" alt="" />
                   </div>
-                </div>
+                </div> -->
               </div>
             </div>
             <div class="carousel-item">
@@ -166,11 +166,11 @@
                     </p>
                   </div>
                 </div>
-                <div class="col-md-7 col-lg-6">
+                <!-- <div class="col-md-7 col-lg-6">
                   <div class="img-box">
                     <img src="images/round.png" alt="" />
                   </div>
-                </div>
+                </div> -->
               </div>
             </div>
             <div class="carousel-item">
@@ -185,11 +185,11 @@
                 </p>
             </div>
             </div>
-                <div class="col-md-7 col-lg-8">
+                <!-- <div class="col-md-7 col-lg-8">
                   <div class="img-box" >
                     <img src="images/graph.png" alt="" style="max-width: 80%;" />
                   </div>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -199,7 +199,7 @@
           <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
             <span class="sr-only">Next</span>
           </a>
-        </div> -->
+        </div>
       </div>
     </section>
   </div>
