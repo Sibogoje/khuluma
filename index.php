@@ -119,19 +119,19 @@
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="detail-box">
-                                <h3>Our Commitment</h3>
+                                <h1>Our Commitment</h1>
                                 <p>We write stories that reflect the power of your brand.</p>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="detail-box">
-                                <h3>Work Ethic</h3>
+                                <h1>Work Ethic</h1>
                                 <p>We are result-oriented and dedicated to delivering excellence.</p>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="detail-box">
-                                <h3>Fluid Communication</h3>
+                                <h1>Fluid Communication</h1>
                                 <p>We adapt to your unique communication needs with flexibility and precision.</p>
                             </div>
                         </div>
