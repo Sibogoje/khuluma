@@ -145,7 +145,7 @@
       <div class="container-fluid">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
-            <div class="carousel-item">
+            <div class="carousel-item active">
               <div class="detail-box">
                 <h3>Our Commitment</h3>
                 <p>We write stories that reflect the power of your brand.</p>
